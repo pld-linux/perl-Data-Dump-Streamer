@@ -7,18 +7,19 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Data::Dump::Streamer - Accurately serialize a data structure as Perl code
 Name:		perl-Data-Dump-Streamer
-Version:	2.32
+Version:	2.34
 Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	dc96995cadacd3404730dafdc35fdec3
+# Source0-md5:	44f90e6abbfadd773686229fec56e042
 URL:		http://search.cpan.org/dist/Data-Dump-Streamer/
 BuildRequires:	perl-Module-Build
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-B-Utils
+BuildRequires:	perl-PadWalker
 %endif
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
