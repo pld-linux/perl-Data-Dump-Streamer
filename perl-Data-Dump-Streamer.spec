@@ -73,6 +73,5 @@ rm -rf $RPM_BUILD_ROOT
 %{perl_vendorarch}/Data/Dump/Streamer
 %dir %{perl_vendorarch}/auto/Data/Dump
 %dir %{perl_vendorarch}/auto/Data/Dump/Streamer
-%{perl_vendorarch}/auto/Data/Dump/Streamer/Streamer.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/Data/Dump/Streamer/Streamer.so
 %{_mandir}/man3/*
