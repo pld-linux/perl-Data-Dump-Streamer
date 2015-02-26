@@ -8,7 +8,7 @@
 Summary:	Data::Dump::Streamer - Accurately serialize a data structure as Perl code
 Name:		perl-Data-Dump-Streamer
 Version:	2.38
-Release:	1
+Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Data/%{pdir}-%{pnam}-%{version}.tar.gz
