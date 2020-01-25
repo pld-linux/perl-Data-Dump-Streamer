@@ -4,7 +4,6 @@
 #
 %define		pdir	Data
 %define		pnam	Dump-Streamer
-%include	/usr/lib/rpm/macros.perl
 Summary:	Data::Dump::Streamer - Accurately serialize a data structure as Perl code
 Name:		perl-Data-Dump-Streamer
 Version:	2.39
